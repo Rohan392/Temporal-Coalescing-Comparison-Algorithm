@@ -14,7 +14,7 @@ A comparative analysis tool for evaluating the performance of two temporal coale
 - Windows Forms / WPF
 
 **Database Tables **
-<pre> <code>```sql CREATE TABLE EmployeeData ( id CHAR(36) NOT NULL, EMP_NO INT NOT NULL, Salary INT NOT NULL, TSTART DATE NOT NULL, END DATE NOT NULL, PRIMARY KEY (id) ); ```</code> </pre>
+<pre> <code>``` CREATE TABLE EmployeeData ( id CHAR(36) NOT NULL, EMP_NO INT NOT NULL, Salary INT NOT NULL, TSTART DATE NOT NULL, END DATE NOT NULL, PRIMARY KEY (id) ); ```</code> </pre>
 
 **Instructions for Running the Program:**
 
