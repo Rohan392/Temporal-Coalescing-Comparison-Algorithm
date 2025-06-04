@@ -36,7 +36,7 @@ CREATE TABLE EmployeeData (
     PRIMARY KEY (id)
 );
 ```
-);
+
 - You will need three separate tables, named exactly:
     - TempralLarge
     - TempralMedium
