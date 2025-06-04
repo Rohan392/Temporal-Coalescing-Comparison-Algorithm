@@ -15,6 +15,7 @@ A comparative analysis tool for evaluating the performance of two temporal coale
 
 **Database Tables **
 CREATE TABLE EmployeeData (
+
     id CHAR(36) NOT NULL,
     EMP_NO INT NOT NULL,
     Salary INT NOT NULL,
