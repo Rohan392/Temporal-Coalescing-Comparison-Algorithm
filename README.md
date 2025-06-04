@@ -13,18 +13,6 @@ A comparative analysis tool for evaluating the performance of two temporal coale
 - C# (.NET)
 - Windows Forms / WPF
 
-**Database Tables **
-```
-CREATE TABLE EmployeeData (
-    id CHAR(36) NOT NULL,
-    EMP_NO INT NOT NULL,
-    Salary INT NOT NULL,
-    TSTART DATE NOT NULL,
-    END DATE NOT NULL,
-    PRIMARY KEY (id)
-);
-```
-
 **Instructions for Running the Program:**
 
 Step 1:
@@ -38,6 +26,7 @@ Step 2: Configure the MySQL Server
 Step 3: Create Required Tables
 - Open your MySQL Command Line Client or preferred GUI (e.g., MySQL Workbench), and execute the following SQL command to create a base table:
 
+```
 CREATE TABLE EmployeeData (
     id CHAR(36) NOT NULL,
     EMP_NO INT NOT NULL,
@@ -45,6 +34,8 @@ CREATE TABLE EmployeeData (
     TSTART DATE NOT NULL,
     END DATE NOT NULL,
     PRIMARY KEY (id)
+);
+```
 );
 - You will need three separate tables, named exactly:
     - TempralLarge
