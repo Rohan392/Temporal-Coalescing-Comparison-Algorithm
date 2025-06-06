@@ -1,4 +1,9 @@
-SQL Temporal Coalescing Algorithms Comparison
+#SQL Temporal Coalescing Algorithms Comparison
+
+**Contributors:**  
+- [Malcolm Todd](https://github.com/Rubixue) 
+---
+
 
 **Overview**
 A comparative analysis tool for evaluating the performance of two temporal coalescing algorithms using SQL and .NET. Designed to visualize, test, and benchmark algorithm performance across different datasets.
